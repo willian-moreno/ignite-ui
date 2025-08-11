@@ -15,6 +15,7 @@ export const {
     ...defaultThemeMap,
     width: 'space',
     height: 'space',
+    borderWidth: 'space',
   },
   theme: {
     colors: tokens.colors,
