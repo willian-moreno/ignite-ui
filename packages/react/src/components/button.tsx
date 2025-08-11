@@ -28,4 +28,4 @@ export const Button = styled('button', {
   },
 })
 
-export type ButtonProps = ComponentProps<typeof Button>
+export interface ButtonProps extends ComponentProps<typeof Button> {}

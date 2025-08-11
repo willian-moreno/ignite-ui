@@ -1,4 +1,4 @@
-import { Box, type BoxProps } from '@ignite-ui/react'
+import { Box, Text, type BoxProps } from '@ignite-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
@@ -6,10 +6,10 @@ export default {
   component: Box,
   args: {
     children: (
-      <span>
+      <Text>
         Lorem ipsum is placeholder text commonly used in the graphic, print, and
         publishing industries for previewing layouts and visual mockups.
-      </span>
+      </Text>
     ),
   },
 } as Meta<BoxProps>
