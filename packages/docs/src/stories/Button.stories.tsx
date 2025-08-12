@@ -1,12 +1,14 @@
 import { Button, ButtonProps } from '@ignite-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 import { ArrowRight } from 'phosphor-react'
+import { fn } from 'storybook/test'
 
 export default {
   title: 'Form/Button',
   component: Button,
   args: {
     children: 'Send',
+    onClick: fn(),
   },
 } as Meta<ButtonProps>
 
