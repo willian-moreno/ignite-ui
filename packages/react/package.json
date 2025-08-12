@@ -12,6 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "@ignite-ui/eslint-config": "*",
+    "prettier": "@ignite-ui/prettier-config",
     "@ignite-ui/tokens": "*",
     "@ignite-ui/ts-config": "*",
     "@types/react": "^19.1.9",

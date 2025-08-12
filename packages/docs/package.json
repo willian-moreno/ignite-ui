@@ -8,6 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
+    "@ignite-ui/prettier-config": "*",
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
     "@ignite-ui/ts-config": "*",
