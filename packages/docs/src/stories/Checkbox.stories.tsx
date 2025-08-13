@@ -6,7 +6,13 @@ export default {
   title: 'Form/Checkbox',
   component: Checkbox,
   args: {
+    disabled: false,
     onCheckedChange: fn(),
+  },
+  argTypes: {
+    disabled: {
+      type: 'boolean',
+    },
   },
   decorators: [
     (Story) => {

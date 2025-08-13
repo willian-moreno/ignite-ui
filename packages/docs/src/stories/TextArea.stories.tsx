@@ -6,7 +6,21 @@ export default {
   title: 'Form/Text Area',
   component: TextArea,
   args: {
+    value: '',
+    placeholder: 'Type your name',
+    disabled: false,
     onInput: fn(),
+  },
+  argTypes: {
+    value: {
+      type: 'string',
+    },
+    placeholder: {
+      type: 'string',
+    },
+    disabled: {
+      type: 'boolean',
+    },
   },
   decorators: [
     (Story) => {

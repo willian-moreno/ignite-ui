@@ -1,5 +1,6 @@
 import { Avatar, AvatarProps } from '@ignite-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
+import { fn } from 'storybook/test'
 
 export default {
   title: 'Data display/Avatar',
@@ -7,6 +8,12 @@ export default {
   args: {
     src: 'https://github.com/willian-moreno.png',
     alt: 'Willian Moreno',
+    onLoadingStatusChange: fn(),
+  },
+  argTypes: {
+    src: {
+      type: 'string',
+    },
   },
 } as Meta<AvatarProps>
 

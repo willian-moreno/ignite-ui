@@ -7,8 +7,24 @@ export default {
   title: 'Form/Button',
   component: Button,
   args: {
+    variant: 'primary',
+    size: 'md',
+    disabled: false,
     children: 'Send',
     onClick: fn(),
+  },
+  argTypes: {
+    variant: {
+      control: 'inline-radio',
+      options: ['primary', 'secondary', 'tertiary'],
+    },
+    size: {
+      control: 'radio',
+      options: ['sm', 'md'],
+    },
+    disabled: {
+      type: 'boolean',
+    },
   },
 } as Meta<ButtonProps>
 
