@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
-    "deploy-sb": "storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "license": "MIT",
   "dependencies": {
