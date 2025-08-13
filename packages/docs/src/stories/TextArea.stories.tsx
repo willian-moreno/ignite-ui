@@ -1,10 +1,13 @@
 import { Box, Text, TextArea, TextAreaProps } from '@ignite-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
+import { fn } from 'storybook/test'
 
 export default {
   title: 'Form/Text Area',
   component: TextArea,
-  args: {},
+  args: {
+    onInput: fn(),
+  },
   decorators: [
     (Story) => {
       return (
