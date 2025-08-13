@@ -1,5 +1,5 @@
-import { Avatar, AvatarProps } from '@ignite-ui/react'
-import type { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react-vite'
+import { Avatar, AvatarProps } from '@willianam-ignite-ui/react'
 import { fn } from 'storybook/test'
 
 export default {

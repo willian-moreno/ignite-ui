@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/react",
+  "name": "@willianam-ignite-ui/react",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -11,10 +11,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/prettier-config": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@willianam-ignite-ui/eslint-config": "*",
+    "@willianam-ignite-ui/tokens": "*",
+    "@willianam-ignite-ui/ts-config": "*",
     "@types/react": "^19.1.9",
     "@types/react-dom": "^19.1.7",
     "react": "^19.1.1",

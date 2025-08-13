@@ -1,6 +1,6 @@
-import { globalCss } from '@ignite-ui/react'
 import { withThemeByClassName } from '@storybook/addon-themes'
 import type { Preview, ReactRenderer } from '@storybook/react-vite'
+import { globalCss } from '@willianam-ignite-ui/react'
 import { themes } from 'storybook/theming'
 
 const globalStyles = globalCss({

@@ -1,5 +1,10 @@
-import { Box, Text, TextInput, TextInputProps } from '@ignite-ui/react'
-import type { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react-vite'
+import {
+  Box,
+  Text,
+  TextInput,
+  TextInputProps,
+} from '@willianam-ignite-ui/react'
 import { fn } from 'storybook/test'
 
 export default {

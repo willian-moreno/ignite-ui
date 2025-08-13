@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@willianam-ignite-ui/docs",
   "version": "1.0.0",
   "scripts": {
     "dev": "storybook dev -p 6006",
@@ -8,11 +8,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/prettier-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@willianam-ignite-ui/eslint-config": "*",
+    "@willianam-ignite-ui/react": "*",
+    "@willianam-ignite-ui/tokens": "*",
+    "@willianam-ignite-ui/ts-config": "*",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",
     "react": "^19.1.1",

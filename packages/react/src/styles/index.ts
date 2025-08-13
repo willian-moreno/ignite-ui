@@ -1,5 +1,5 @@
-import * as tokens from '@ignite-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
+import * as tokens from '@willianam-ignite-ui/tokens'
 
 export const {
   styled,
