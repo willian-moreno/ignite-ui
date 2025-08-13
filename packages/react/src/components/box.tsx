@@ -2,12 +2,10 @@ import { ComponentProps, type ElementType } from 'react'
 import { styled } from '../styles'
 
 export const Box = styled('div', {
-  borderStyle: 'solid',
-  borderColor: '$gray600',
-  borderWidth: 1,
-  borderRadius: '$md',
+  padding: '$6',
   backgroundColor: '$gray800',
-  padding: '$4',
+  border: '1px solid $gray600',
+  borderRadius: '$md',
 })
 
 export interface BoxProps extends ComponentProps<typeof Box> {
