@@ -1,6 +1,6 @@
 {
   "name": "@willianam-ignite-ui/docs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
