@@ -7,6 +7,7 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "license": "MIT",
+  "private": true,
   "dependencies": {
     "@willianam-ignite-ui/eslint-config": "*",
     "@willianam-ignite-ui/react": "*",

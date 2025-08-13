@@ -7,5 +7,7 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@willianam-ignite-ui/docs"]
+  "ignore": [
+    "@willianam-ignite-ui/docs"
+  ]
 }
