@@ -6,7 +6,6 @@ export default {
   title: 'Form/Text Area',
   component: TextArea,
   args: {
-    value: '',
     placeholder: 'Type your name',
     disabled: false,
     onInput: fn(),
